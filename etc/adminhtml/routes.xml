@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+  ~ @copyright Copyright © 2025 Dot Sistemas. All rights reserved.
+  ~ @author Eliel de Paula <elieldepaula@gmail.com>
+  -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="admin">
+        <route id="dotsistemas_cronmanager" frontName="dotsistemas_cronmanager">
+            <module name="DotSistemas_CronManager"/>
+        </route>
+    </router>
+</config>

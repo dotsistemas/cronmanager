@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+  ~ @copyright Copyright © 2025 Dot Sistemas. All rights reserved.
+  ~ @author Eliel de Paula <elieldepaula@gmail.com>
+  -->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <update handle="styles"/>
+    <body>
+        <referenceContainer name="content">
+            <uiComponent name="dotsistemas_cronmanager_cron_listing"/>
+        </referenceContainer>
+    </body>
+</page>

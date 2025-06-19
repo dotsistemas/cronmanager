@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+  ~ @copyright Copyright © 2025 Dot Sistemas. All rights reserved.
+  ~ @author Eliel de Paula <elieldepaula@gmail.com>
+  -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="DotSistemas_CronManager::cron_manager" title="Cron Manager" sortOrder="100">
+                    <resource id="DotSistemas_CronManager::cron" title="Cron Jobs" sortOrder="10"/>
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>

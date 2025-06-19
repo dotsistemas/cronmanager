@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+  ~ @copyright Copyright © 2025 Dot Sistemas. All rights reserved.
+  ~ @author Eliel de Paula <elieldepaula@gmail.com>
+  -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="DotSistemas_CronManager::cron_manager"
+             title="Cron Manager"
+             module="DotSistemas_CronManager"
+             sortOrder="100"
+             resource="DotSistemas_CronManager::cron_manager"
+             parent="Magento_Backend::system"/>
+        <add id="DotSistemas_CronManager::cron"
+             title="Cron Jobs"
+             module="DotSistemas_CronManager"
+             sortOrder="10"
+             action="dotsistemas_cronmanager/cron"
+             resource="DotSistemas_CronManager::cron_manager"
+             parent="DotSistemas_CronManager::cron_manager"/>
+    </menu>
+</config>
